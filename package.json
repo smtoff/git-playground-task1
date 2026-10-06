@@ -6,4 +6,5 @@
   "main": "notes.js",
   "scripts": { "start": "node notes.js" },
   "license": "MIT"
+  "not_needed": "TODELETE"
 }

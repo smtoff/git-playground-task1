@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const store = require("./lib/store");
+const store = require("/lib/store");
 const config = require("./lib/config");
 
 const [command, ...rest] = process.argv.slice(2);
@@ -18,7 +18,7 @@ function main() {
     }
     case "list": {
       const notes = store.all();
-      if (notes.length === 0) {
+      if (notes.length == 0) {
         console.log("No notes yet. Add one with: notes add <text>");
         return;
       }

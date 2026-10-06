@@ -22,3 +22,4 @@ Goal: instead of reading a diff yourself, have Claude tell you what changed, the
 3. Ask Claude: *'Summarize what I've changed, and flag anything that looks unintended.'* Paste its summary into `notes.md` under your prediction, then add a sentence on whether it caught the stray change.
 4. Have Claude commit `notes.md` on a new branch — tell it *'commit on a branch called `read-repo` and push it.'*
 5. Create a PR against the main repository, not your fork, and submit it.
+6. There are a couple of errors in the code now a missing . or =
